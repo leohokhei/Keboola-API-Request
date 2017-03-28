@@ -1,14 +1,14 @@
-###########################################################################################
-### Keboola API Request                                                                 ###
-### Prepared by Leo Chan                                                                ###
-### Python Ver 2.7                                                                      ###
-### Requirements:                                                                       ###
-### API request and output into CSV                                                     ###
-### Details:                                                                            ###
-### 1. This program will output everything but the ones which are not completed.        ###
-### 2. This program can output up to as many forms it is available with the given API.  ###
-### 3. NaN are used for responses that are missing.                                     ###
-###########################################################################################
+#################################################################################################
+### Keboola API Request                                                                       ###
+### Prepared by Leo Chan                                                                      ###
+### Python Ver 2.7                                                                            ###
+### Requirements:                                                                             ###
+### API request and output into CSV                                                           ###
+### Details:                                                                                  ###
+### 1. This program will output all the answers but the forms which are not completed.        ###
+### 2. This program can output up to as many forms it is available with the given API.        ###
+### 3. NaN are used for responses that are missing.                                           ###
+#################################################################################################
  
 import requests
 import csv
